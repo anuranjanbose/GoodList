@@ -13,6 +13,7 @@
 		7D20EE632494D7C4000B9462 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D20EE612494D7C4000B9462 /* Main.storyboard */; };
 		7D20EE652494D7C5000B9462 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D20EE642494D7C5000B9462 /* Assets.xcassets */; };
 		7D20EE682494D7C5000B9462 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D20EE662494D7C5000B9462 /* LaunchScreen.storyboard */; };
+		7D62932D2494D86300EC7C3E /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D62932C2494D86300EC7C3E /* TaskListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7D20EE642494D7C5000B9462 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D20EE672494D7C5000B9462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D20EE692494D7C5000B9462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D62932C2494D86300EC7C3E /* TaskListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		7D20EE5A2494D7C4000B9462 /* GoodList */ = {
 			isa = PBXGroup;
 			children = (
+				7D62932B2494D84800EC7C3E /* Controllers */,
 				7D20EE5B2494D7C4000B9462 /* AppDelegate.swift */,
 				7D20EE5D2494D7C4000B9462 /* SceneDelegate.swift */,
 				7D20EE5F2494D7C4000B9462 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				7D20EE692494D7C5000B9462 /* Info.plist */,
 			);
 			path = GoodList;
+			sourceTree = "<group>";
+		};
+		7D62932B2494D84800EC7C3E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7D62932C2494D86300EC7C3E /* TaskListViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D20EE602494D7C4000B9462 /* ViewController.swift in Sources */,
+				7D62932D2494D86300EC7C3E /* TaskListViewController.swift in Sources */,
 				7D20EE5C2494D7C4000B9462 /* AppDelegate.swift in Sources */,
 				7D20EE5E2494D7C4000B9462 /* SceneDelegate.swift in Sources */,
 			);
